@@ -1,68 +1,214 @@
-<div class="be-left-sidebar">
-        <div class="left-sidebar-wrapper"><a class="left-sidebar-toggle" href="devlan_pages_dashboard.php">Dashboard</a>
-          <div class="left-sidebar-spacer">
-            <div class="left-sidebar-scroll">
-              <div class="left-sidebar-content">
-                <ul class="sidebar-elements">
-                  <li class="divider">Menu</li>
-                  <li class="active"><a href="devlan_pages_dashboard.php"><i class="icon mdi mdi-home"></i><span>Dashboard</span></a>
-                  </li>
+<div class="left-side-menu">
+  <div class="slimscroll-menu">
+      <!--- Sidemenu -->
+      <div id="sidebar-menu">
 
-                  <li class="parent active"><a href="devlan_pages_misc_projects.php"><i class="icon mdi mdi-unity"></i><span>My Projects</span></a>
-                    <ul class="sub-menu">
-                      <li><a href="devlan_pages_create_project.php">Create Projects</a>
+          <ul class="metismenu" id="side-menu">
+
+              <li class="menu-title">Navigation</li>
+
+                <li>
+                    <a href="javascript: void(0);">
+                        <i class="fe-airplay"></i>
+                        <span class="badge badge-success badge-pill float-right">2</span>
+                        <span> Dashboards </span>
+                    </a>
+                    <ul class="nav-second-level" aria-expanded="false">
+                        <li>
+                            <a href="devlan_pages_dashboard.php">Coding Commits </a>
+                        </li>
+                        <li>
+                            <a href="networking/devlan_pages_nw_commits_dashboard.php">Networking Commits</a>
+                        </li>
+                        <!--
+                            We tryna keep on ading more dashboards as the commits types
+                            keeps on increasing,
+                        <li>
+                            <a href="dashboard-3.html">Dashboard 3</a>
+                        </li>
+                        <li>
+                            <a href="dashboard-4.html">Dashboard 4</a>
+                        </li> -->
+                    </ul>
+                </li>
+
+              <li>
+                  <a href="javascript: void(0);">
+                      <i class="fe-user"></i>
+                      <span> Devlan Account </span>
+                      <span class="menu-arrow"></span>
+                  </a>
+                  <ul class="nav-second-level" aria-expanded="false">
+                      <li>
+                          <a href="devlan_pages_account.php">My Profile</a>
                       </li>
-                      <li><a href="devlan_pages_manage_projects.php">Manage Projects</a>
+
+                      <li>
+                          <a href="devlan_pages_account_settings.php">Settings</a>
+                      </li>
+
+                      <li>
+                          <a href="devlan_pages_change_password.php">Change Password</a>
                       </li>
                       
-                    </ul>
-                  </li>
-                  <li class="parent active"><a href="#"><i class="icon mdi mdi-access-point-network"></i><span>Networking Projects</span></a>
-                    <ul class="sub-menu">
-                      <!--<li><a href="devlan_pages_gns3_topologies.php">GNS 3 Topologies</a>-->
-                      </li>
-                      <li><a href="devlan_pages_packettracer_topologies.php">Packet Tracer Topologies</a>
-                      </li>
-                      <li><a href="devlan_pages_automation_scripts.php"><span class="badge badge-primary float-right">New</span> Automation Scripts</a>
-                      </li>
+                  </ul>
+              </li>
 
-                      </ul>
-                  </li>
-                  <li class="parent active"><a href="#"><i class="icon mdi mdi-code-braces"></i><span>Coding Projects</span></a>
-                    <ul class="sub-menu">
-                      <li><a href="devlan_pages_frontendweb_apps.php">FrondEnd WebApps</a>
+              <li>
+                  <a href="javascript: void(0);">
+                      <i class="mdi mdi-source-pull"></i>
+                      <span>My Commits </span>
+                      <span class="menu-arrow"></span>
+                  </a>
+                  <ul class="nav-second-level" aria-expanded="false">
+                      <li>
+                          <a href="devlan_pages_new_commit.php">New Commit</a>
                       </li>
-                      <li><a href="devlnan_pages_backendweb_apps.php">BackEnd WebApps </a>
+                      <li>
+                          <a href="devlan_pages_view_my_commits.php">View My Commits</a>
                       </li>
-                      <li><a href="devlan_pages_fullstackweb_apps.php">Fullstack WebApps</a>
-                      </li>
-                      <li><a href="devlan_pages_frameworkapps.php">Framework Apps</a>
-                      </li>
-                      <li><a href="devlan_pages_nonframeworkapps.php">Non Framework Apps</a>
-                      </li>
-                      <li><a href="devlan_pages_androidapps.php">Android Apps</a>
-                      </li>
-                      <li><a href="devlan_pages_pwe.php">Progressive Web Apps</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="parent active"><a href="devlan_pages_misc_projects.php"><i class="icon mdi mdi-chemical-weapon"></i><span>Misc Projects</span></a>
-                    <ul class="sub-menu">
-                      <li><a href="devlan_pages_misc_networking_projects.php">Networking Projects</a>
-                      </li>
-                      <li><a href="devlan_pages_misc_softwaredevelopment_projects.php">Software Developemt Projects</a>
+                      <li>
+                          <a href="devlan_pages_manage_commits.php">Manage Commits</a>
                       </li>
                       
-                    </ul>
-                  </li>
-                  <li class="active"><a href="devlan_pages_pdfs.php"><i class="icon mdi mdi-chip"></i><span>PDF Cheat Sheets</span></a>
-                  
-                  <li class="active"><a href="devlan_pages_advanced_project_search.php"><i class="icon mdi mdi-book-search-outline"></i><span> Search</span></a>
-                 
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
+                  </ul>
+              </li>
+
+
+              <li class="menu-title mt-2">All Commits</li>
+
+              <li>
+                  <a href="javascript: void(0);">
+                      <i class="fe-chrome"></i>
+                      <span> FrontEnd  </span>
+                      <span class="menu-arrow"></span>
+                  </a>
+                  <ul class="nav-second-level" aria-expanded="false">
+
+                      <li>
+                          <a href="devlan_pages_commits_view_frontend_commits.php">View Commit</a>
+                      </li>
+                      
+                      
+                  </ul>
+              </li>
+
+              <li>
+                  <a href="javascript: void(0);">
+                      <i class="fe-cast"></i>
+                      <span> BackEnd  </span>
+                      <span class="menu-arrow"></span>
+
+                  </a>
+                  <ul class="nav-second-level" aria-expanded="false">
+
+                      <li>
+                          <a href="devlan_pages_commits_view_backend_commits.php">View Commit</a>
+                      </li>
+                      
+                      
+                  </ul>
+              </li>
+
+              <li>
+                  <a href="javascript: void(0);">
+                      <i class="fe-layers"></i>
+                      <span> FullStack </span>
+                      <span class="menu-arrow"></span>
+                  </a>
+                  <ul class="nav-second-level" aria-expanded="false">
+
+                      <li>
+                          <a href="devlan_pages_commits_view_fullstack_commits.php">View Commit</a>
+                      </li>
+                                            
+                  </ul>
+              </li>
+
+              <li>
+                  <a href="javascript: void(0);">
+                      <i class="fe-cpu"></i>
+                      <span> Framewoks </span>
+                      <span class="menu-arrow"></span>
+                  </a>
+                  <ul class="nav-second-level" aria-expanded="false">
+
+                      <li>
+                          <a href="devlan_pages_commits_view_framework_commits.php">View Commit</a>
+                      </li>
+                                            
+                  </ul>
+              </li>
+
+  
+              <li>
+                  <a href="javascript: void(0);">
+                      <i class="fe-monitor"></i>
+                      <span> NativeApps </span>
+                      <span class="menu-arrow"></span>
+                  </a>
+                  <ul class="nav-second-level" aria-expanded="false">
+
+                      <li>
+                          <a href="devlan_pages_commits_view_nativeapps_commits.php">View Commit</a>
+                      </li>
+                                            
+                  </ul>
+              </li>
+
+              <li>
+                  <a href="javascript: void(0);">
+                      <i class="fe-tablet"></i>
+                      <span> PWE </span>
+                      <span class="menu-arrow"></span>
+                  </a>
+                  <ul class="nav-second-level" aria-expanded="false">
+
+                      <li>
+                          <a href="devlan_pages_commits_view_pwe_commits.php">View Commit</a>
+                      </li>
+                                            
+                  </ul>
+              </li>
+
+              <li>
+                  <a href="javascript: void(0);">
+                      <i class="fe-map"></i>
+                      <span> CheatSheets </span>
+                      <span class="menu-arrow"></span>
+                  </a>
+                  <ul class="nav-second-level" aria-expanded="false">
+
+                      <li>
+                          <a href="devlan_pages_commits_view_cheatsheets_commits.php">View Commit</a>
+                      </li>
+                      
+                  </ul>
+              </li>
+
+              <li>
+                  <a href="javascript: void(0);">
+                      <i class="fe-file-plus"></i>
+                      <span> Misc </span>
+                      <span class="menu-arrow"></span>
+                  </a>
+                  <ul class="nav-second-level" aria-expanded="false">
+
+                      <li>
+                          <a href="devlan_pages_commits_view_misc_commits.php">View Commit</a>
+                      </li>
+                      
+                  </ul>
+              </li>
+
+              
+
+          </ul>
+
       </div>
+      <!-- End Sidebar -->
+
+      <div class="clearfix"></div>
+
+  </div>
+</div>

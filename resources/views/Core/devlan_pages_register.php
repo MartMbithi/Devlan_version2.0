@@ -46,7 +46,7 @@
                                 
                                 <div class="text-center w-75 m-auto">
                                     <a href="javascript: void(0);">
-                                        <span><img src="assets/img/logo-white-xx.png" alt="Devlan Logo" height="60"></span>
+                                        <span><img src="assets/img/devlan-logo.png" alt="Devlan Logo" height="80"></span>
                                     </a>
                                     <p class="text-muted mb-4 mt-3">Create an account with us</p>
                                 </div>
@@ -64,12 +64,12 @@
 
                                     <div class="form-group mb-3">
                                         <label for="password">Password</label>
-                                        <input class="form-control" name="password" type="password" required="" id="main_password" placeholder="Secure Your Account With A Strong Password">
+                                        <input class="form-control" name="password" type="password" required=""  placeholder="Secure Your Account With A Strong Password">
                                     </div>
 
                                     <div class="form-group mb-3">
                                         <label for="password">Confirm Password</label>
-                                        <input class="form-control"  type="password" required="" id="password_conf" placeholder="Confirm Your Password">
+                                        <input class="form-control"  type="password" required="" placeholder="Confirm Your Password">
                                     </div>
 
                                     <div class="form-group mb-3" style="display:none">
@@ -90,10 +90,10 @@
                                     </div>
 
                                 </form>
-
                                 <div class="text-center">
-                                    <h5 class="mt-3 text-muted">Sign up with</h5>
+                                    <h5 class="mt-3 text-muted">Sign in with</h5>
                                     <ul class="social-list list-inline mt-3 mb-0">
+                                    <!-- First we have implemented github
                                         <li class="list-inline-item">
                                             <a href="javascript: void(0);" class="social-list-item border-primary text-primary"><i class="mdi mdi-facebook"></i></a>
                                         </li>
@@ -103,10 +103,10 @@
                                         <li class="list-inline-item">
                                             <a href="javascript: void(0);" class="social-list-item border-info text-info"><i class="mdi mdi-twitter"></i></a>
                                         </li>
+                                        -->
                                         <li class="list-inline-item">
-                                            <a href="javascript: void(0);" class="social-list-item border-secondary text-secondary"><i class="mdi mdi-github-circle"></i></a>
+                                            <a href="GitAuth/" class="social-list-item border-secondary text-secondary"><i class="mdi mdi-github-circle"></i></a>
                                         </li>
-                                        
                                     </ul>
                                 </div>
 
@@ -116,8 +116,8 @@
 
                         <div class="row mt-3">
                             <div class="col-12 text-center">
-                                <p> <a href="devlan_pages_recoverpw.php" class=" btn btn-outline-success text-white-50 ml-1">Forgot your password?</a></p>
-                                <p class="text-white-50">Have an account? <a href="index.php" class="text-white ml-1"><b>Sign In</b></a></p>
+                                <p> <a href="devlan_pages_recoverpw.php" class=" btn btn-outline-danger text-white-50 ml-1">Forgot your password?</a></p>
+                                <p class="text-white-50">Have an account? <a href="index.php" class="btn btn-outline-success ml-1"><b>Sign In</b></a></p>
                             </div> <!-- end col -->
                         </div>
                         <!-- end row -->

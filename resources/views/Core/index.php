@@ -48,12 +48,12 @@
                                 
                                 <div class="text-center w-75 m-auto">
                                     <a href="javascript: void(0);">
-                                        <span><img src="assets/img/logo-white-xx.png" alt="Devlan Logo" height="60"></span>
+                                        <span><img src="assets/img/devlan-logo.png" alt="Devlan Logo" height="80"></span>
                                     </a>
                                     <p class="text-muted mb-4 mt-3">Enter your email address and password to access your dashboard.</p>
                                 </div>
 
-                                <form method ="post" >
+                                <form method ="post"   >
 
                                     <div class="form-group mb-3">
                                         <label for="emailaddress">Email address</label>
@@ -78,23 +78,7 @@
 
                                 </form>
 
-                                <div class="text-center">
-                                    <h5 class="mt-3 text-muted">Sign in with</h5>
-                                    <ul class="social-list list-inline mt-3 mb-0">
-                                        <li class="list-inline-item">
-                                            <a href="javascript: void(0);" class="social-list-item border-primary text-primary"><i class="mdi mdi-facebook"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="javascript: void(0);" class="social-list-item border-danger text-danger"><i class="mdi mdi-google"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="javascript: void(0);" class="social-list-item border-info text-info"><i class="mdi mdi-twitter"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="javascript: void(0);" class="social-list-item border-secondary text-secondary"><i class="mdi mdi-github-circle"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                
 
                             </div> <!-- end card-body -->
                         </div>
@@ -102,9 +86,9 @@
 
                         <div class="row mt-3">
                             <div class="col-12 text-center">
-                                <p> <a href="devlan_pages_recoverpw.php" class=" btn btn-outline-success text-white-50 ml-1">Forgot your password?</a></p>
-                                <p class="text-white-50">Don't have an account? <a href="devlan_pages_register.php" class="text-white ml-1"><b>Sign Up</b></a></p>
-                                <p class="text-white-50">DevLan take me <a href="https://devlan.martdev.info/" class="text-white ml-1"><b>Home</b></a> Safe</p>
+                                <p><a href="devlan_pages_register.php" class=" btn btn-success ml-1">Have No Account?</a></p>
+                                <p class="text-white-50"> Can't Remember Your Password? <a href="devlan_pages_recoverpw.php" class=" btn btn-outline-danger ml-1"><b>Reset Password</b></a></p>
+                                <p class="text-white-50">DevLan take me <a href="https://devlan.martdev.info/" class=" btn btn-success ml-1"><b>Home</b></a> Safe</p>
 
                             </div> <!-- end col -->
                         </div>
